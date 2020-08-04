@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: black;
+    font-family: 'Lato';
+}
+
+body{
+    box-sizing: border-box;
+    
+}
+
+.header{
+    height: 80vh;
+   background-image: url("../image/home_masthead_ipadonly.jpg");
+    background-size:cover;
+    background-position: bottom;
+    position: relative;
+  
+}
+
+.header__text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.header-h1{
+    font-size: 44px;
+}
+
+
+
+.btn{
+    border: 1px solid #2399e5;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 11px 40px;
+    margin-top: 43px;
+    display: inline-block;
+    border-radius: 2px;
+    
+}
+
+.btn:hover{
+    background-color:#2399e5;
+}
+
+
+.btn--office{
+      margin-right: 12px;
+}
+
+
+.office-form{
+     
+      margin:0 auto;
+      text-align: center;
+}
+
+
+
+
+
